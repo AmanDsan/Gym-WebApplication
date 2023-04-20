@@ -35,7 +35,8 @@ const images = [
   {
     url: "https://wallpaperaccess.com/full/19424.jpg",
     text: "Mixed martial arts (MMA), hybrid combat sport incorporating techniques from boxing, wrestling, judo, jujitsu, karate, Muay Thai (Thai boxing), and other disciplines.",
-  }, {
+  },
+  {
     url: "https://cdn.wallpapersafari.com/93/36/x8q3e5.jpg",
     text: "Taekwondo is one of the most systematic and scientific Korean traditional martial arts, that teaches more than physical fighting skills. It is a discipline that shows ways of enhancing our spirit and life through training our body and mind. Today, it has become a global sport that has gained an international reputation, and stands among the official games in the Olympics.",
   },
@@ -60,7 +61,7 @@ const Program = () => {
         <img src={currentImage.url} alt={currentImage.text} />
         <p>{currentImage.text}</p>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
